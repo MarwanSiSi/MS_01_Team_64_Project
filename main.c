@@ -31,7 +31,7 @@ int main() {
         // blink yellow led for 1 second
         blink_led(yellow_led);
 
-        //turn on all leds together for 2 seconds
+        //blink all leds together for 2 seconds
         blink_all_leds(red_led, green_led, yellow_led);
     }
 }
